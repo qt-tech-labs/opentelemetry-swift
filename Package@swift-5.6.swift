@@ -22,6 +22,7 @@ let package = Package(
         .library(name: "JaegerExporter", type: .static, targets: ["JaegerExporter"]),
         .library(name: "ZipkinExporter", type: .static, targets: ["ZipkinExporter"]),
         .library(name: "StdoutExporter", type: .static, targets: ["StdoutExporter"]),
+        .library(name: "OpenTelemetryProtocolExporterCommon", type: .static, targets: ["OpenTelemetryProtocolExporterCommon"]),
         .library(name: "PrometheusExporter", type: .static, targets: ["PrometheusExporter"]),
         .library(name: "OpenTelemetryProtocolExporter", type: .static, targets: ["OpenTelemetryProtocolExporterGrpc"]),
         .library(name: "OpenTelemetryProtocolExporterHTTP", type: .static, targets: ["OpenTelemetryProtocolExporterHttp"]),
